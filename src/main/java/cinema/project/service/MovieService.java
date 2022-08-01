@@ -1,7 +1,7 @@
 package cinema.project.service;
 
-import java.util.List;
 import cinema.project.model.Movie;
+import java.util.List;
 
 public interface MovieService {
     Movie add(Movie movie);

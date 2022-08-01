@@ -1,11 +1,11 @@
 package cinema.project.dao.impl;
 
+import cinema.project.dao.ShoppingCartDao;
 import cinema.project.exception.DataProcessingException;
 import cinema.project.lib.Dao;
-import cinema.project.util.HibernateUtil;
-import cinema.project.dao.ShoppingCartDao;
 import cinema.project.model.ShoppingCart;
 import cinema.project.model.User;
+import cinema.project.util.HibernateUtil;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;

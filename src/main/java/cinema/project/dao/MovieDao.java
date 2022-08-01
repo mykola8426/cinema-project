@@ -1,8 +1,8 @@
 package cinema.project.dao;
 
+import cinema.project.model.Movie;
 import java.util.List;
 import java.util.Optional;
-import cinema.project.model.Movie;
 
 public interface MovieDao {
     Movie add(Movie movie);

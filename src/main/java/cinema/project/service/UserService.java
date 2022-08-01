@@ -1,7 +1,7 @@
 package cinema.project.service;
 
-import java.util.Optional;
 import cinema.project.model.User;
+import java.util.Optional;
 
 public interface UserService {
     User add(User user);

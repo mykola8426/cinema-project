@@ -1,20 +1,20 @@
 package cinema.project;
 
-import java.time.LocalDate;
-import java.time.LocalDateTime;
+import cinema.project.exception.RegistrationException;
 import cinema.project.lib.Injector;
 import cinema.project.model.CinemaHall;
 import cinema.project.model.Movie;
 import cinema.project.model.MovieSession;
-import cinema.project.security.AuthenticationService;
-import cinema.project.exception.RegistrationException;
 import cinema.project.model.ShoppingCart;
 import cinema.project.model.User;
+import cinema.project.security.AuthenticationService;
 import cinema.project.service.CinemaHallService;
 import cinema.project.service.MovieService;
 import cinema.project.service.MovieSessionService;
 import cinema.project.service.OrderService;
 import cinema.project.service.ShoppingCartService;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 public class Main {
     public static void main(String[] args) {

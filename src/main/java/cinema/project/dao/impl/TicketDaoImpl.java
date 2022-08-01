@@ -1,9 +1,9 @@
 package cinema.project.dao.impl;
 
 import cinema.project.dao.TicketDao;
-import cinema.project.model.Ticket;
 import cinema.project.exception.DataProcessingException;
 import cinema.project.lib.Dao;
+import cinema.project.model.Ticket;
 import cinema.project.util.HibernateUtil;
 import org.hibernate.Session;
 import org.hibernate.Transaction;

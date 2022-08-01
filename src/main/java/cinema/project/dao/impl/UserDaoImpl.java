@@ -1,11 +1,11 @@
 package cinema.project.dao.impl;
 
-import java.util.Optional;
 import cinema.project.dao.UserDao;
 import cinema.project.exception.DataProcessingException;
 import cinema.project.lib.Dao;
 import cinema.project.model.User;
 import cinema.project.util.HibernateUtil;
+import java.util.Optional;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;

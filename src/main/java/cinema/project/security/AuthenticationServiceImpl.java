@@ -1,14 +1,14 @@
 package cinema.project.security;
 
-import java.util.Optional;
+import cinema.project.exception.AuthenticationException;
+import cinema.project.exception.RegistrationException;
 import cinema.project.lib.Inject;
 import cinema.project.lib.Service;
+import cinema.project.model.User;
 import cinema.project.service.ShoppingCartService;
 import cinema.project.service.UserService;
 import cinema.project.util.HashUtil;
-import cinema.project.exception.AuthenticationException;
-import cinema.project.exception.RegistrationException;
-import cinema.project.model.User;
+import java.util.Optional;
 
 @Service
 public class AuthenticationServiceImpl implements AuthenticationService {

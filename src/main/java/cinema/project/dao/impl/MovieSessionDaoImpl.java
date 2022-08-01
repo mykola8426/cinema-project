@@ -1,5 +1,10 @@
 package cinema.project.dao.impl;
 
+import cinema.project.dao.MovieSessionDao;
+import cinema.project.exception.DataProcessingException;
+import cinema.project.lib.Dao;
+import cinema.project.model.MovieSession;
+import cinema.project.util.HibernateUtil;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.List;
@@ -8,11 +13,6 @@ import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Predicate;
 import javax.persistence.criteria.Root;
-import cinema.project.dao.MovieSessionDao;
-import cinema.project.exception.DataProcessingException;
-import cinema.project.lib.Dao;
-import cinema.project.model.MovieSession;
-import cinema.project.util.HibernateUtil;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;

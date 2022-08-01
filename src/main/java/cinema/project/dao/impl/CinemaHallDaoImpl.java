@@ -1,13 +1,13 @@
 package cinema.project.dao.impl;
 
-import java.util.List;
-import java.util.Optional;
-import javax.persistence.criteria.CriteriaQuery;
 import cinema.project.dao.CinemaHallDao;
 import cinema.project.exception.DataProcessingException;
 import cinema.project.lib.Dao;
 import cinema.project.model.CinemaHall;
 import cinema.project.util.HibernateUtil;
+import java.util.List;
+import java.util.Optional;
+import javax.persistence.criteria.CriteriaQuery;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 

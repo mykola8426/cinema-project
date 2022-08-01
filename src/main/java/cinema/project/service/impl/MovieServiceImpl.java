@@ -1,11 +1,11 @@
 package cinema.project.service.impl;
 
-import java.util.List;
 import cinema.project.dao.MovieDao;
 import cinema.project.lib.Inject;
 import cinema.project.lib.Service;
 import cinema.project.model.Movie;
 import cinema.project.service.MovieService;
+import java.util.List;
 
 @Service
 public class MovieServiceImpl implements MovieService {
