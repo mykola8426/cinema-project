@@ -18,7 +18,7 @@ import java.time.LocalDateTime;
 
 public class Main {
     public static void main(String[] args) {
-        Injector injector = Injector.getInstance("mate.academy");
+        Injector injector = Injector.getInstance("cinema.project");
         MovieService movieService =
                 (MovieService) injector.getInstance(MovieService.class);
 
