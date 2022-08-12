@@ -1,12 +1,8 @@
 ![cinema logo](cinema_logo.png)
 # Cinema project
-___
 
 ### 📒 Project description:
-___
-      A simple application that supports authentication, registration and other CRUD operations.
-      This application follows REST architecture principles, SOLID design rules and 3-tire architecture(layer of controllers,
-      business logic layer and layer of database).Depends on role you have different accesses(Roles: USER and ADMIN).
+      A simple web application that supports authentication, registration and other CRUD operations.
 ###  🔗 Features:
 ___
 * registration like a user;
@@ -22,6 +18,23 @@ ___
 * display list of all movies;
 * display list of all cinema halls;
 
+
+#####  Access rights to individual endpoints according to roles:
+```
+GET: /cinema-halls (USER or ADMIN)
+POST: /cinema-halls (ADMIN)
+GET: /movies (USER or ADMIN)
+POST: /movies (ADMIN)
+GET: /movie-sessions/available (USER or ADMIN)
+POST: /movie-sessions (ADMIN)
+PUT: /movie-sessions/{id} (ADMIN)
+GET: /orders (USER)
+POST: /orders/complete (USER)
+POST: /register (ALL)
+GET: /shopping-carts/by-user (USER)
+PUT: /shopping-carts/movie-sessions (USER)
+GET: /users/by-email (ADMIN)
+```
 ### 🖥 Technologies used:
 ___
 * JDK 11
@@ -30,7 +43,7 @@ ___
 * MySql 8.0.22
 * Spring(WEB, Security, MVC, REST)
 
-### 🚀  How to run:
+### 🚀  Run Locally:
 ___
 To correctly use this service you have to install MySQL, Apache Tomcat version 9 and PostMan.
 1. Clone this project to your environment:
@@ -47,7 +60,7 @@ To correctly use this service you have to install MySQL, Apache Tomcat version 9
     * Click 'apply' and 'Ok'.
 7. Go ahead and use it(default users created in DataIntializer.class)!
 
-### 🧩 Whole schema of project:
+### 🧩 Database diagram:
 ![whole schema](Hibernate_Cinema_Uml.png)
 
-# Created by Mykola Yakymiv
+### Created by Mykola Yakymiv
